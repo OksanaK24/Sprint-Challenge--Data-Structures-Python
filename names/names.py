@@ -69,6 +69,7 @@ for name in names_2:
     if all_names.contains(name):
         duplicates.append(name)
 
+
 # -------------  The fastest way (Stretch Goal): (runtime: 0.0034160614013671875 seconds)  ------
 # duplicates = list(set(names_1).intersection(set(names_2)))
 
